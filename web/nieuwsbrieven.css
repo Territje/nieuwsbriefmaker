@@ -1,0 +1,117 @@
+/* .listTable { */
+	/* width: 100%; */
+    /* overflow-x: auto; */
+    /* -webkit-overflow-scrolling: touch; */
+    /* display: block;  */
+/* } */
+
+/* thead { */
+	/* background-color: #eee; */
+/* } */
+
+/* .listTable tbody { */
+	/* border-top: 0!important; */
+/* } */
+
+/* .listTable table thead tr td { */
+    /* position: relative; */
+    /* width: auto; */
+/* } */
+
+/* .listTable table tr td { */
+    /* border-bottom: 1px solid #ddd; */
+    /* margin-left: 3px; */
+    /* padding: 7px 12px; */
+/* } */
+.body {
+
+}
+
+.listing {
+	color: #777;
+}
+
+#navpage-content {
+	   overflow: hidden;
+}
+
+.popup {
+	width: 97%;
+    height: 90%;
+    position: fixed;
+    max-width: 1000px;
+    backface-visibility: visible;
+    margin: auto;
+    z-index: 8;
+    overflow: hidden;
+}
+
+.containert {
+    height: 100%;
+    background-color: #445352;
+    -webkit-overflow-scrolling: touch;
+    z-index: 8;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.75);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.75);
+    box-shadow: 0px 0px 10px 1px rgba(212, 212, 212, 0.75);
+    display: flex;
+    flex-direction: column;
+	color:#445352;
+	padding:9px;
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+.containert::-webkit-scrollbar {
+  display: none;
+}
+
+.button-space {
+	margin: 10px;
+	width: 150px;
+	position: absolute;
+	top: 2px;
+	right: 17px;
+}
+
+.block-grid {
+	Margin: 0 auto;
+	min-width: 320px;
+	max-width: 650px;
+	overflow-wrap: break-word;
+	word-wrap: break-word;
+	word-break: break-word;
+	background-color: transparent;
+}
+
+.block-grid-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+
+#nieuwsbriefPopup img {
+	outline: none;
+	text-decoration: none;
+	-ms-interpolation-mode: bicubic;
+	clear: both;
+	border: 0;
+	height: auto;
+	float: none;
+	width: 100%;
+	max-width: 163px;
+	display: block;
+}
+
+#nieuwsbriefPopup p {
+	padding:10px;
+	color: #555555;
+	margin: 0;
+	text-align: left;
+	font-family: 'Oxygen', 'Trebuchet MS', 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Tahoma, sans-serif;
+}
+
+textarea#email {
+	height: 100px;
+}

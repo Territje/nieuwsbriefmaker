@@ -1,0 +1,40 @@
+{
+    "name": "softer/nieuwsbriefmaker",
+    "description": "Nieuwsbrief maker voor Bolt CMS",
+    "type": "bolt-extension",
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Terri O'Donovan",
+            "email": "softernl@protonmail.com",
+        }
+	],
+    "require": {
+        "php": ">=7.1.3",
+        "twig/twig": "^2.12 | ^3.0"
+    },
+    "require-dev": {
+        "bolt/core": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Softer\\Nieuwsbriefmaker\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Softer\\Nieuwsbriefmaker\\Tests\\": "tests",
+            "Bolt\\Tests\\": "vendor/bolt/bolt/tests/phpunit/unit/"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "bolt-icon": "bolt-nieuwsbrief-maker.png",
+		"bolt-assets": "web",
+        "bolt-class": "Softer\\Nieuwsbriefmaker\\NieuwsbriefmakerExtension",
+		"bolt-screenshots": []
+    },
+	"keywords": [ "e-mail" "nieuwsbrief", "editor", "tool"
+    ]
+}
