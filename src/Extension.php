@@ -1,6 +1,6 @@
 <?php
 
-namespace Terri\Nieuwsbriefmaker;
+namespace SofTer\Nieuwsbriefmaker;
 
 use Bolt\Extension\BaseExtension;
 
