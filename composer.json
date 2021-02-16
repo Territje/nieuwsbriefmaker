@@ -36,6 +36,5 @@
 		"bolt-screenshots": [],
 	    "entrypoint": "BobDenOtter\\MyAwesomeExtension\\Extension"
     },
-	"keywords": [ "e-mail" "nieuwsbrief", "editor", "tool"
-    ]
+	"keywords": [ "e-mail" "nieuwsbrief", "editor", "tool" ]
 }
